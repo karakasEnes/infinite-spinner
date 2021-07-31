@@ -1,0 +1,63 @@
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    background: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+h1 {
+    font-family: 'WindSong', cursive;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 3rem;
+}
+
+
+/* Loader */
+.loader {
+    position:fixed;
+    top:0;
+    left: 0;
+    right:0;
+    bottom:0;
+}
+
+
+.loader img {
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Image Container */
+.image-container {
+    margin: 10px 30%;
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%;
+    margin-top: 10px;
+    
+}
+
+
+/* Media Query Smart Phone & Tablets */
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size:20px;
+    }
+
+    .image-container {
+        margin:10px;
+    }
+    
+}
